@@ -11,7 +11,7 @@ def get_title(column, titles, mov_index_from_column_to_global):
         title: str
         categories: str
     """
-    globID = mov_index_from_column_to_global[column] + 1  # convert back to 1-based for titles
+    globID = mov_index_from_column_to_global[column] + 1  
     row = titles.index[titles['movieId'] == globID].tolist()[0]
     title = titles.loc[row, 'title']
     categories = titles.loc[row, 'genres']
