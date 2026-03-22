@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from utils.data_loader import load_movielens
+from utils.movielens_load_data import load_movielens
 from utils.get_title import get_title
 from als.myALS import myALS
 from als.gValue import gValue

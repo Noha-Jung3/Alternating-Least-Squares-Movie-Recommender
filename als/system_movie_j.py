@@ -30,3 +30,6 @@ def system_movie_j(R, U, lambda_, j):
     bj = U_Ij @ r_Ij
     
     return Aj, bj
+
+
+    

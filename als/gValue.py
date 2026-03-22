@@ -6,7 +6,7 @@ def gValue(R, U, M, lambda_):
     Compute the ALS objective function value.
 
     Args:
-        R: ratings matrix (users x movies) — sparse or dense
+        R: ratings matrix (users x movies)
         U: user feature matrix (f x n_users)
         M: movie feature matrix (f x n_movies)
         lambda_: regularization parameter
