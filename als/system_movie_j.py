@@ -1,5 +1,5 @@
 import numpy as np
-
+import scipy.sparse as sp
 def system_movie_j(R, U, lambda_, j):
     """
     Compute Aj and bj to update movie feature vector m_j.

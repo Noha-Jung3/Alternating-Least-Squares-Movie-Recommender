@@ -17,8 +17,8 @@ def load_movielens(ratings_file, movies_file):
     # columns: movieID, title, genres 
 
     #Build sparse ratings matrix 
-    n_users = ratings["UserId"].max()
-    n_movies_global = ratings["MovieId"].max()
+    n_users = ratings["userId"].max()
+    n_movies_global = ratings["movieId"].max()
 
     #Initial sparse matrix with global movie IDs:
     Rsp_full = sp.lil_matrix((n_users, n_movies_global))
